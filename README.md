@@ -1,26 +1,31 @@
-# KIT App 🧰
+# KIT App
 
-The **KIT App** is an Android application that helps users easily store, categorize, and track personal items. Designed with a user-friendly interface and powered by Firebase, it offers seamless item management with dynamic categorization and secure cloud storage.
+KIT App is an Android application for storing, categorizing, and tracking personal items. It uses Firebase for authentication, cloud storage, and real-time data synchronization, allowing users to securely manage their items from a simple mobile interface.
 
----
+## Tech Stack
 
-## 🚀 Features
+* Java
+* Android Studio
+* Firebase
+* Firebase Authentication
+* Firebase Cloud Storage
 
-- **📱 User-Friendly Interface:** Clean and intuitive Android design for effortless navigation.  
-- **🗂️ Dynamic Categorization:** Automatically organizes stored items by category for faster retrieval.  
-- **☁️ Firebase Integration:** Utilizes Firebase for real-time cloud storage and data synchronization.  
-- **🔒 Secure Access:** Ensures safe storage and retrieval of user information.  
-- **🔄 Full-Stack Android Development:** Combines front-end design and back-end data handling for a smooth experience.
+## Run Locally
 
----
+Clone the repository and open the project in Android Studio.
 
-## 🧩 Tech Stack
+Connect the project to Firebase and add your `google-services.json` file to the `app/` directory:
 
-- **Language:** Java  
-- **Framework:** Android Studio  
-- **Backend:** Java, Google Firebase
-- **Authentication:** Firebase Auth 
-- **Storage:** Firebase Cloud Storage 
+```text id="0t1k88"
+KIT-App/
+└── app/
+    └── google-services.json
+```
 
----
+Make sure the required Firebase services, including Authentication and Cloud Storage, are enabled for your Firebase project.
 
+Sync the Gradle dependencies, then run the application using an Android emulator or a connected Android device.
+
+## Live Site
+
+Live site: [https://appetize.io/app/b_slap62sbjl4o4ifhymgyjn3lbu](https://appetize.io/app/b_slap62sbjl4o4ifhymgyjn3lbu)
